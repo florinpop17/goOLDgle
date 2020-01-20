@@ -1,0 +1,40 @@
+/* CSS code from: https://tinyurl.com/fix-google-search-results-css */
+
+#search .r a[ping] {
+	text-decoration: none;
+}
+
+#search .r a[ping] > div > img[height='16'][width='16'],
+#search .r a[ping] + div > div > img[height='16'][width='16'] {
+	display: none;
+}
+
+#search .r a[ping] {
+	display: flex;
+	flex-direction: column;
+}
+
+#search .r a[ping] > br {
+	display: none;
+}
+
+#search .r a[ping] > h3 {
+	order: -1;
+	margin: 0;
+	padding: 0;
+}
+
+#search .r a[ping] > div {
+	margin: -2px 0 5px;
+	padding: 0;
+}
+
+#search .r a[ping] + div {
+	position: absolute;
+	top: 24px;
+}
+
+#search .r a[ping]:not(:hover) > div,
+#search .r a[ping]:not(:hover) + div {
+	opacity: 0.8;
+}

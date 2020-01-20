@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "GoOLDgle",
+	"author": "Florin Pop & Alin Maior",
+	"description": "Bring back the old Google search design before the 2020 update",
+	"version": "0.1",
+	"icons": {
+		"128": "icon_128.png"
+	},
+	"content_scripts": [
+		{
+			"css": ["style.css"],
+			"matches": [
+				"https://google.com/*",
+				"http://google.com/*",
+				"https://*.google.com/*"
+			]
+		}
+	]
+}
