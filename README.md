@@ -15,7 +15,7 @@ In the meantime, you can download this repo and add manually the **goOLDgle** fo
 ## Easy steps
 
 1. Download (or clone) this repository
-2. Go to [chrome://extensions/](chrome://extensions/)
+2. Go to **chrome://extensions/** in your browser
 3. Drag and Drop the extension folder (**goOLDgle**) anywhere onto the extensions page in Chrome.
 
 # Created By
